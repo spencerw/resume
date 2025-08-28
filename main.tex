@@ -177,31 +177,36 @@
       {Postdoctoral Researcher}{}
       {University of Washington, Astronomy Department}{September 2023 \textbf{--} Present}
         \resumeItemListStart
-        	   \resumeItem{Performed profiling and performance tuning for the tree-based N-body code {\sc \href{https://github.com/N-BodyShop/changa}{ChaNGa}} on an HPC cluster}
-	   \resumeItem{Optimized and streamlined the host to GPU memory transfer that takes place during each step, resulting in a 10\% speedup over the existing benchmarks}
-	   \resumeItem{Collaborated with a specialist at the Texas Advanced Computing Center to streamline and prepare our codebase for deployment on their upcoming Grace Hopper GPU nodes}
+     \resumeItem{Deployed and optimized the large-scale C++/CUDA simulation code (\href{https://github.com/N-BodyShop/changa}{ChaNGa}) on NVIDIA Grace Hopper CPU–GPU nodes at TACC, improving runtime scalability on up to 500+ GPUs and 30,000+ cores}
+	   \resumeItem{Profiled and debugged GPU memory and performance bottlenecks with NVIDIA tools, reducing stalls and improving throughput by a factor of 5x}
+	   \resumeItem{Collaborated with HPC specialists across physics, CS, and biology to adapt algorithms to diverse workloads}
         \resumeItemListEnd
         
      \resumeSubheading
       {Research Assistant}{}
       {University of Washington, Astronomy Department}{October 2019 \textbf{--} August 2023}
         \resumeItemListStart
-        	   \resumeItem{Designed, proposed and executed a \$450,000 National Science Foundation-funded research grant to simulate the formation of Earth-like planets using HPC resources (including SDSC Expanse)}
-	   \resumeItem{Contributed to three successful XSEDE computing proposals}
-	   \resumeItem{Implemented a new physics module in the N-body code  {\sc \href{https://github.com/N-BodyShop/changa}{ChaNGa}} to track collisions between solid bodies, allowing me to simulate resolutions 100x finer than any existing studies}
-	   \resumeItem{Developed a pipeline to create new simulation data from existing results using generative AI, saving over 900,000 CPU hours of computation}
-	   \resumeItem{Trained and mentored 5 undergraduate students while they deployed and analyzed simulations on the university's local HPC cluster}
-	   \resumeItem{Produced a coauthored \href{https://doi.org/10.1109/IPDPS53621.2022.00079}{IEEE publication} while helping to develop {\sc \href{https://paratreet.github.io/}{paratreet}}, a toolkit for quickly testing and tuning parallel tree traversal algorithms (C++, Python, Bash, Git)}
+     \resumeItem{Designed and implemented a parallel tree-based collision detection module in C++/MPI, enabling the first planet formation simulations with realistic-sized bodies, which resulted in three first-author publications}
+	   \resumeItem{Contributed to \href{https://paratreet.github.io/}{paratreet}, a toolkit for testing/tuning distributed tree traversal algorithms, which resulted in a coauthored \href{https://doi.org/10.1109/IPDPS53621.2022.00079}{IEEE publication}}
+	   \resumeItem{Built a PyTorch-based generative diffusion model to synthesize simulation results, saving 900k+ CPU hours}
+	   \resumeItem{Mentored 5 students in HPC workflows and performance tuning on clusters}
         \resumeItemListEnd
         
        \resumeSubheading
       {Teaching Assistant}{}
       {University of Washington, Astronomy Department}{October 2015 \textbf{--} September 2019}
         \resumeItemListStart
-        	   \resumeItem{Led weekly discussion sections, graded exams, and occasionally designed homework assignments and performed guest lectures for undergraduate astronomy classes, some of which involved teaching basic data analysis and numerical modeling skills using Python and Excel}
-	   \resumeItem{Collaborated with a team of other teaching assistants to ensure exams and assignments were graded consistently and fairly}
+        \resumeItem{Led weekly discussion sections, graded exams, designed homework assignments and performed guest lectures for undergraduate astronomy classes, some of which involved teaching basic data analysis and numerical modeling skills using Python and Excel}
+	      \resumeItem{Collaborated with a team of other teaching assistants to ensure exams and assignments were graded consistently and fairly}
         \resumeItemListEnd
-        
+
+       \resumeSubheading
+      {Software Consultant}{}
+      {LSST Corporation}{June 2011 \textbf{--} August 2014}
+        \resumeItemListStart
+        \resumeItem{Designed interactive visualization widgets (JavaScript/Node.js) for {\sc \href{https://ascot.github.io/}{ASCOT}} the astronomer's collaborative toolkit}
+	      \resumeItem{Built a fully customizable, persistent dashboard interface, along with documentation to facilitate large survey data exploration}
+        \resumeItemListEnd
   \resumeSubHeadingListEnd
   
   %----------- SKILLS -----------
@@ -214,7 +219,7 @@
         
         \textbf{Tools and Environments: }{Git, NumPy, pandas, PyTorch, SLURM, matplotlib, seaborn}  \\ \vspace{3pt}
         
-        \textbf{Communication:}{ 3 first-authored publications, 2 co-authored publications, 8 conference talks, 3 conference posters, 20 pop-sci articles published through \href{https://astrobites.org/}{astrobites}} \\ \vspace{3pt}
+        \textbf{Communication:}{3 first-authored publications, 2 co-authored publications, 8 conference talks, 3 conference posters, 20 pop-sci articles published through \href{https://astrobites.org/}{astrobites}} \\ \vspace{3pt}
     }}
   \resumeSubHeadingListEnd
   
